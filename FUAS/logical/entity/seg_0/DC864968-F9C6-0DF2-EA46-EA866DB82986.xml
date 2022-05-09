@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC864968-F9C6-0DF2-EA46-EA866DB82986" name="ALUMNO">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:50:23 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Alumno" id="658F3A87-07F1-FCCE-2A1D-D63CF7DA99A0">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:55:06 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A6D748A0-67D7-FDC4-999E-12D41C601A32">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:55:06 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApellidoPaterno" id="1080F33A-FC19-E7EB-25A1-F1153389881B">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:55:07 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApellidoMaterno" id="CAF4E0A1-FC3F-C281-8E20-25B0D1059FBE">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:55:45 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut" id="486EAFD1-FAEA-FECD-027B-CFA564B12AFD">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:56:00 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdNacionalidad" id="5BAB9B59-2DF5-3678-8F1D-ABCCA3E0360A">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:11:30 UTC</createdTime>
+<generatorID>8D23DE20-B8FF-1656-FF63-D7BA1C19731C</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>A68683A8-3E5B-8F27-42F1-DBF68569EF99</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPuebloOriginario" id="C4C1D904-5612-30DF-DE7A-B0934A91A8BC">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:11:39 UTC</createdTime>
+<generatorID>29146615-C4DA-6B66-3717-5409CE10B95C</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>FC26B01C-17EB-CBFB-588F-E3B398319E10</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEstadoCivil" id="6F58900A-29F2-DE13-DEBF-E63DC35EB940">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:03 UTC</createdTime>
+<generatorID>17A1D2BA-6671-A1EC-A8FA-1EF1ECE5D44A</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>C8930202-948E-043E-2166-7931DF153901</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdActividad" id="C202012C-9B73-F9D9-C489-A5C747DD65AB">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:17 UTC</createdTime>
+<generatorID>C3552506-8030-105F-9A63-6A6249FDD115</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>52F8432F-A044-2340-9A47-2F063586E57F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAntecedente" id="4C1B71F3-E480-65B0-A12D-1D6B42051C90">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:14:17 UTC</createdTime>
+<generatorID>24C94E97-F83A-DA22-EB2A-4E35E0098389</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>3DF35B9E-44B3-7CD2-3039-9CD268FB2AE0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0F12FBA-1EEA-3635-E392-1353B57CEF4C" name="ALUMNO PK">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:55:14 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>658F3A87-07F1-FCCE-2A1D-D63CF7DA99A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E83BB45E-8FF6-4371-3622-E8465833EEE1" name="ANTECEDENTES_ACADEMICOS">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:52:43 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAntecedente" id="3DF35B9E-44B3-7CD2-3039-9CD268FB2AE0">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:59:09 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PromedioEnsenanzaMedia" id="5819C7EE-ACFD-E511-93C2-BF5397595D97">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:59:09 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UltimoAnoMatricula" id="90548556-DB65-818D-FB93-1E272A55DD50">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:59:11 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdInstitucion" id="2842FAB1-BB1B-F591-7627-51F6565C263D">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:53 UTC</createdTime>
+<generatorID>0E4D5521-4713-467D-7699-A8CF295E5AE2</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>F2698203-1B66-A9C4-9443-81C6C65FBC15</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C5900EA-E40D-A66F-E855-9A82246600ED" name="ANTECEDENTES_ACADEMICOS PK">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 01:59:17 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DF35B9E-44B3-7CD2-3039-9CD268FB2AE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

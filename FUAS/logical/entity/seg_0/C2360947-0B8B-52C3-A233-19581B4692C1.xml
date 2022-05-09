@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2360947-0B8B-52C3-A233-19581B4692C1" name="INTEGRANTE_GRUPO_FAMILIAR">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:27 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdGrupoIntegrante" id="605F6121-5199-3D60-41D3-B2D7DCD5816B">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:48 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut" id="27E32E81-DA7C-3356-422F-212B509ED654">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:48 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="BEC3D728-B2B3-FD80-B265-EB7CBC4C52AF">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:48 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApellidoMaterno" id="7CFAEC3B-36A0-24B3-6CBE-8B83A7619D34">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:49 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApellidoPaterno" id="A99D903E-979D-2FFC-E79A-79A9A0DC1140">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:49 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edad" id="A2926D21-13D2-8186-7C60-1FA83CC1AB67">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:49 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="FB84F8D4-9A78-668E-39BE-509F9005C3E1">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:04:49 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdNivelEstudio" id="EBF315EB-5595-270F-C971-E1567B187574">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:23 UTC</createdTime>
+<generatorID>03CF26E4-A6E1-DBF2-8EE9-43D2727888F6</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>EB5CCB8B-2437-9291-25D9-88FCB66FB366</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPrevision" id="84DCA3D9-797B-6F23-24FE-C305911F2C3A">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:26 UTC</createdTime>
+<generatorID>6911B702-01C9-AB66-E5E1-C0B80CDC7205</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>DFEAC5EF-5F2E-7AC6-3EE9-7235AB045B6C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPrevisionSocial" id="1D6A353D-C8F8-57C5-8CD4-8ECBA9132973">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:12:29 UTC</createdTime>
+<generatorID>5509E7B2-7F53-E10F-9F19-74882148E666</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>56B18DB1-9DBE-F34A-2AF9-0759BA8B081C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEstadoCivil" id="E9B1AF1F-8FFD-0A73-72C6-AFF0697C5470">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:13:54 UTC</createdTime>
+<generatorID>07496916-46DE-46BE-F248-6801CE1065AC</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>C8930202-948E-043E-2166-7931DF153901</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdActividad" id="21A10847-8213-9849-ADEA-F7302B3F3BCE">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:14:04 UTC</createdTime>
+<generatorID>D0E31949-319F-4A4F-C93D-81917F7DA837</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>52F8432F-A044-2340-9A47-2F063586E57F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Alumno" id="DCF81967-9BD4-EA6D-D5B9-C496695AE0CE">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:14:37 UTC</createdTime>
+<generatorID>ABB0736F-1F7D-B091-99C3-8EBE5193F286</generatorID>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<referedAttribute>658F3A87-07F1-FCCE-2A1D-D63CF7DA99A0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D19B3126-977F-2427-E7AD-7F28DDA20043" name="INTEGRANTE_GRUPO_FAMILIAR PK">
+<createdBy>oscarbastias</createdBy>
+<createdTime>2022-05-05 02:06:22 UTC</createdTime>
+<ownerDesignName>dadadada</ownerDesignName>
+<engineerTo>
+<item key="8CF4AB33-19D5-8FF2-E781-379B683E6AEE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>605F6121-5199-3D60-41D3-B2D7DCD5816B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
